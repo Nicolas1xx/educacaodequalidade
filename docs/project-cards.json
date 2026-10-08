@@ -1,0 +1,452 @@
+[
+  {
+    "id": "EDU-01",
+    "title": "Inspecionar repositório",
+    "category": "Planejamento",
+    "status": "Concluído",
+    "description": "Inspecionar repositório conforme o escopo Educa+ e o PDF v1.0.",
+    "acceptance": "Entrega de \"Inspecionar repositório\" verificável em arquivo, commit ou teste, com evidência registrada.",
+    "evidence": ""
+  },
+  {
+    "id": "EDU-02",
+    "title": "Ler onze páginas do protótipo",
+    "category": "Planejamento",
+    "status": "Concluído",
+    "description": "Ler onze páginas do protótipo conforme o escopo Educa+ e o PDF v1.0.",
+    "acceptance": "Entrega de \"Ler onze páginas do protótipo\" verificável em arquivo, commit ou teste, com evidência registrada.",
+    "evidence": ""
+  },
+  {
+    "id": "EDU-03",
+    "title": "Mapear dez rotas",
+    "category": "Planejamento",
+    "status": "Concluído",
+    "description": "Mapear dez rotas conforme o escopo Educa+ e o PDF v1.0.",
+    "acceptance": "Entrega de \"Mapear dez rotas\" verificável em arquivo, commit ou teste, com evidência registrada.",
+    "evidence": ""
+  },
+  {
+    "id": "EDU-04",
+    "title": "Definir requisitos funcionais",
+    "category": "Planejamento",
+    "status": "Backlog",
+    "description": "Definir requisitos funcionais conforme o escopo Educa+ e o PDF v1.0.",
+    "acceptance": "Entrega de \"Definir requisitos funcionais\" verificável em arquivo, commit ou teste, com evidência registrada.",
+    "evidence": ""
+  },
+  {
+    "id": "EDU-05",
+    "title": "Definir requisitos não funcionais",
+    "category": "Planejamento",
+    "status": "Backlog",
+    "description": "Definir requisitos não funcionais conforme o escopo Educa+ e o PDF v1.0.",
+    "acceptance": "Entrega de \"Definir requisitos não funcionais\" verificável em arquivo, commit ou teste, com evidência registrada.",
+    "evidence": ""
+  },
+  {
+    "id": "EDU-06",
+    "title": "Escrever histórias de usuário",
+    "category": "Planejamento",
+    "status": "Backlog",
+    "description": "Escrever histórias de usuário conforme o escopo Educa+ e o PDF v1.0.",
+    "acceptance": "Entrega de \"Escrever histórias de usuário\" verificável em arquivo, commit ou teste, com evidência registrada.",
+    "evidence": ""
+  },
+  {
+    "id": "EDU-07",
+    "title": "Pesquisar cinco referências",
+    "category": "Planejamento",
+    "status": "Backlog",
+    "description": "Pesquisar cinco referências conforme o escopo Educa+ e o PDF v1.0.",
+    "acceptance": "Entrega de \"Pesquisar cinco referências\" verificável em arquivo, commit ou teste, com evidência registrada.",
+    "evidence": ""
+  },
+  {
+    "id": "EDU-08",
+    "title": "Definir proposta de valor",
+    "category": "Planejamento",
+    "status": "Backlog",
+    "description": "Definir proposta de valor conforme o escopo Educa+ e o PDF v1.0.",
+    "acceptance": "Entrega de \"Definir proposta de valor\" verificável em arquivo, commit ou teste, com evidência registrada.",
+    "evidence": ""
+  },
+  {
+    "id": "EDU-09",
+    "title": "Extrair tokens de cor",
+    "category": "Prototipação",
+    "status": "Concluído",
+    "description": "Extrair tokens de cor conforme o escopo Educa+ e o PDF v1.0.",
+    "acceptance": "Entrega de \"Extrair tokens de cor\" verificável em arquivo, commit ou teste, com evidência registrada.",
+    "evidence": ""
+  },
+  {
+    "id": "EDU-10",
+    "title": "Conferir tipografia Inter",
+    "category": "Prototipação",
+    "status": "Concluído",
+    "description": "Conferir tipografia Inter conforme o escopo Educa+ e o PDF v1.0.",
+    "acceptance": "Entrega de \"Conferir tipografia Inter\" verificável em arquivo, commit ou teste, com evidência registrada.",
+    "evidence": ""
+  },
+  {
+    "id": "EDU-11",
+    "title": "Mapear breakpoints",
+    "category": "Prototipação",
+    "status": "Concluído",
+    "description": "Mapear breakpoints conforme o escopo Educa+ e o PDF v1.0.",
+    "acceptance": "Entrega de \"Mapear breakpoints\" verificável em arquivo, commit ou teste, com evidência registrada.",
+    "evidence": ""
+  },
+  {
+    "id": "EDU-12",
+    "title": "Catalogar componentes",
+    "category": "Prototipação",
+    "status": "Concluído",
+    "description": "Catalogar componentes conforme o escopo Educa+ e o PDF v1.0.",
+    "acceptance": "Entrega de \"Catalogar componentes\" verificável em arquivo, commit ou teste, com evidência registrada.",
+    "evidence": ""
+  },
+  {
+    "id": "EDU-13",
+    "title": "Reproduzir identidade Educa+",
+    "category": "Prototipação",
+    "status": "Backlog",
+    "description": "Reproduzir identidade Educa+ conforme o escopo Educa+ e o PDF v1.0.",
+    "acceptance": "Entrega de \"Reproduzir identidade Educa+\" verificável em arquivo, commit ou teste, com evidência registrada.",
+    "evidence": ""
+  },
+  {
+    "id": "EDU-14",
+    "title": "Documentar cobertura visual do PDF",
+    "category": "Prototipação",
+    "status": "Backlog",
+    "description": "Documentar cobertura visual do PDF conforme o escopo Educa+ e o PDF v1.0.",
+    "acceptance": "Entrega de \"Documentar cobertura visual do PDF\" verificável em arquivo, commit ou teste, com evidência registrada.",
+    "evidence": ""
+  },
+  {
+    "id": "EDU-15",
+    "title": "Inicializar React e TypeScript",
+    "category": "Desenvolvimento",
+    "status": "Concluído",
+    "description": "Inicializar React e TypeScript conforme o escopo Educa+ e o PDF v1.0.",
+    "acceptance": "Entrega de \"Inicializar React e TypeScript\" verificável em arquivo, commit ou teste, com evidência registrada.",
+    "evidence": ""
+  },
+  {
+    "id": "EDU-16",
+    "title": "Configurar Tailwind",
+    "category": "Desenvolvimento",
+    "status": "Concluído",
+    "description": "Configurar Tailwind conforme o escopo Educa+ e o PDF v1.0.",
+    "acceptance": "Entrega de \"Configurar Tailwind\" verificável em arquivo, commit ou teste, com evidência registrada.",
+    "evidence": ""
+  },
+  {
+    "id": "EDU-17",
+    "title": "Definir interfaces de dados",
+    "category": "Desenvolvimento",
+    "status": "Concluído",
+    "description": "Definir interfaces de dados conforme o escopo Educa+ e o PDF v1.0.",
+    "acceptance": "Entrega de \"Definir interfaces de dados\" verificável em arquivo, commit ou teste, com evidência registrada.",
+    "evidence": ""
+  },
+  {
+    "id": "EDU-18",
+    "title": "Cadastrar disciplinas locais",
+    "category": "Desenvolvimento",
+    "status": "Concluído",
+    "description": "Cadastrar disciplinas locais conforme o escopo Educa+ e o PDF v1.0.",
+    "acceptance": "Entrega de \"Cadastrar disciplinas locais\" verificável em arquivo, commit ou teste, com evidência registrada.",
+    "evidence": ""
+  },
+  {
+    "id": "EDU-19",
+    "title": "Escrever aulas completas",
+    "category": "Desenvolvimento",
+    "status": "Concluído",
+    "description": "Escrever aulas completas conforme o escopo Educa+ e o PDF v1.0.",
+    "acceptance": "Entrega de \"Escrever aulas completas\" verificável em arquivo, commit ou teste, com evidência registrada.",
+    "evidence": ""
+  },
+  {
+    "id": "EDU-20",
+    "title": "Escrever vinte questões",
+    "category": "Desenvolvimento",
+    "status": "Backlog",
+    "description": "Escrever vinte questões conforme o escopo Educa+ e o PDF v1.0.",
+    "acceptance": "Entrega de \"Escrever vinte questões\" verificável em arquivo, commit ou teste, com evidência registrada.",
+    "evidence": ""
+  },
+  {
+    "id": "EDU-21",
+    "title": "Criar perfil demonstrativo",
+    "category": "Desenvolvimento",
+    "status": "Backlog",
+    "description": "Criar perfil demonstrativo conforme o escopo Educa+ e o PDF v1.0.",
+    "acceptance": "Entrega de \"Criar perfil demonstrativo\" verificável em arquivo, commit ou teste, com evidência registrada.",
+    "evidence": ""
+  },
+  {
+    "id": "EDU-22",
+    "title": "Validar armazenamento local",
+    "category": "Desenvolvimento",
+    "status": "Backlog",
+    "description": "Validar armazenamento local conforme o escopo Educa+ e o PDF v1.0.",
+    "acceptance": "Entrega de \"Validar armazenamento local\" verificável em arquivo, commit ou teste, com evidência registrada.",
+    "evidence": ""
+  },
+  {
+    "id": "EDU-23",
+    "title": "Criar contexto do estudante",
+    "category": "Desenvolvimento",
+    "status": "Backlog",
+    "description": "Criar contexto do estudante conforme o escopo Educa+ e o PDF v1.0.",
+    "acceptance": "Entrega de \"Criar contexto do estudante\" verificável em arquivo, commit ou teste, com evidência registrada.",
+    "evidence": ""
+  },
+  {
+    "id": "EDU-24",
+    "title": "Criar contexto de acessibilidade",
+    "category": "Desenvolvimento",
+    "status": "Backlog",
+    "description": "Criar contexto de acessibilidade conforme o escopo Educa+ e o PDF v1.0.",
+    "acceptance": "Entrega de \"Criar contexto de acessibilidade\" verificável em arquivo, commit ou teste, com evidência registrada.",
+    "evidence": ""
+  },
+  {
+    "id": "EDU-25",
+    "title": "Implementar componentes básicos",
+    "category": "Desenvolvimento",
+    "status": "Backlog",
+    "description": "Implementar componentes básicos conforme o escopo Educa+ e o PDF v1.0.",
+    "acceptance": "Entrega de \"Implementar componentes básicos\" verificável em arquivo, commit ou teste, com evidência registrada.",
+    "evidence": ""
+  },
+  {
+    "id": "EDU-26",
+    "title": "Implementar modal acessível",
+    "category": "Desenvolvimento",
+    "status": "Backlog",
+    "description": "Implementar modal acessível conforme o escopo Educa+ e o PDF v1.0.",
+    "acceptance": "Entrega de \"Implementar modal acessível\" verificável em arquivo, commit ou teste, com evidência registrada.",
+    "evidence": ""
+  },
+  {
+    "id": "EDU-27",
+    "title": "Implementar navegação responsiva",
+    "category": "Desenvolvimento",
+    "status": "Backlog",
+    "description": "Implementar navegação responsiva conforme o escopo Educa+ e o PDF v1.0.",
+    "acceptance": "Entrega de \"Implementar navegação responsiva\" verificável em arquivo, commit ou teste, com evidência registrada.",
+    "evidence": ""
+  },
+  {
+    "id": "EDU-28",
+    "title": "Implementar landing page",
+    "category": "Desenvolvimento",
+    "status": "Backlog",
+    "description": "Implementar landing page conforme o escopo Educa+ e o PDF v1.0.",
+    "acceptance": "Entrega de \"Implementar landing page\" verificável em arquivo, commit ou teste, com evidência registrada.",
+    "evidence": ""
+  },
+  {
+    "id": "EDU-29",
+    "title": "Implementar cadastro",
+    "category": "Desenvolvimento",
+    "status": "Backlog",
+    "description": "Implementar cadastro conforme o escopo Educa+ e o PDF v1.0.",
+    "acceptance": "Entrega de \"Implementar cadastro\" verificável em arquivo, commit ou teste, com evidência registrada.",
+    "evidence": ""
+  },
+  {
+    "id": "EDU-30",
+    "title": "Implementar dashboard",
+    "category": "Desenvolvimento",
+    "status": "Backlog",
+    "description": "Implementar dashboard conforme o escopo Educa+ e o PDF v1.0.",
+    "acceptance": "Entrega de \"Implementar dashboard\" verificável em arquivo, commit ou teste, com evidência registrada.",
+    "evidence": ""
+  },
+  {
+    "id": "EDU-31",
+    "title": "Implementar disciplinas",
+    "category": "Desenvolvimento",
+    "status": "Backlog",
+    "description": "Implementar disciplinas conforme o escopo Educa+ e o PDF v1.0.",
+    "acceptance": "Entrega de \"Implementar disciplinas\" verificável em arquivo, commit ou teste, com evidência registrada.",
+    "evidence": ""
+  },
+  {
+    "id": "EDU-32",
+    "title": "Implementar biblioteca e pesquisa",
+    "category": "Desenvolvimento",
+    "status": "Backlog",
+    "description": "Implementar biblioteca e pesquisa conforme o escopo Educa+ e o PDF v1.0.",
+    "acceptance": "Entrega de \"Implementar biblioteca e pesquisa\" verificável em arquivo, commit ou teste, com evidência registrada.",
+    "evidence": ""
+  },
+  {
+    "id": "EDU-33",
+    "title": "Implementar favoritos",
+    "category": "Desenvolvimento",
+    "status": "Backlog",
+    "description": "Implementar favoritos conforme o escopo Educa+ e o PDF v1.0.",
+    "acceptance": "Entrega de \"Implementar favoritos\" verificável em arquivo, commit ou teste, com evidência registrada.",
+    "evidence": ""
+  },
+  {
+    "id": "EDU-34",
+    "title": "Implementar aula e sumário",
+    "category": "Desenvolvimento",
+    "status": "Backlog",
+    "description": "Implementar aula e sumário conforme o escopo Educa+ e o PDF v1.0.",
+    "acceptance": "Entrega de \"Implementar aula e sumário\" verificável em arquivo, commit ou teste, com evidência registrada.",
+    "evidence": ""
+  },
+  {
+    "id": "EDU-35",
+    "title": "Implementar quiz por etapas",
+    "category": "Desenvolvimento",
+    "status": "Backlog",
+    "description": "Implementar quiz por etapas conforme o escopo Educa+ e o PDF v1.0.",
+    "acceptance": "Entrega de \"Implementar quiz por etapas\" verificável em arquivo, commit ou teste, com evidência registrada.",
+    "evidence": ""
+  },
+  {
+    "id": "EDU-36",
+    "title": "Implementar resultado comentado",
+    "category": "Desenvolvimento",
+    "status": "Backlog",
+    "description": "Implementar resultado comentado conforme o escopo Educa+ e o PDF v1.0.",
+    "acceptance": "Entrega de \"Implementar resultado comentado\" verificável em arquivo, commit ou teste, com evidência registrada.",
+    "evidence": ""
+  },
+  {
+    "id": "EDU-37",
+    "title": "Implementar gráficos e histórico",
+    "category": "Desenvolvimento",
+    "status": "Backlog",
+    "description": "Implementar gráficos e histórico conforme o escopo Educa+ e o PDF v1.0.",
+    "acceptance": "Entrega de \"Implementar gráficos e histórico\" verificável em arquivo, commit ou teste, com evidência registrada.",
+    "evidence": ""
+  },
+  {
+    "id": "EDU-38",
+    "title": "Implementar edição de perfil",
+    "category": "Desenvolvimento",
+    "status": "Backlog",
+    "description": "Implementar edição de perfil conforme o escopo Educa+ e o PDF v1.0.",
+    "acceptance": "Entrega de \"Implementar edição de perfil\" verificável em arquivo, commit ou teste, com evidência registrada.",
+    "evidence": ""
+  },
+  {
+    "id": "EDU-39",
+    "title": "Implementar metas persistentes",
+    "category": "Desenvolvimento",
+    "status": "Backlog",
+    "description": "Implementar metas persistentes conforme o escopo Educa+ e o PDF v1.0.",
+    "acceptance": "Entrega de \"Implementar metas persistentes\" verificável em arquivo, commit ou teste, com evidência registrada.",
+    "evidence": ""
+  },
+  {
+    "id": "EDU-40",
+    "title": "Restaurar demonstração",
+    "category": "Desenvolvimento",
+    "status": "Backlog",
+    "description": "Restaurar demonstração conforme o escopo Educa+ e o PDF v1.0.",
+    "acceptance": "Entrega de \"Restaurar demonstração\" verificável em arquivo, commit ou teste, com evidência registrada.",
+    "evidence": ""
+  },
+  {
+    "id": "EDU-41",
+    "title": "Testar correção automática",
+    "category": "Testes",
+    "status": "Backlog",
+    "description": "Testar correção automática conforme o escopo Educa+ e o PDF v1.0.",
+    "acceptance": "Entrega de \"Testar correção automática\" verificável em arquivo, commit ou teste, com evidência registrada.",
+    "evidence": ""
+  },
+  {
+    "id": "EDU-42",
+    "title": "Testar cadastro e persistência",
+    "category": "Testes",
+    "status": "Backlog",
+    "description": "Testar cadastro e persistência conforme o escopo Educa+ e o PDF v1.0.",
+    "acceptance": "Entrega de \"Testar cadastro e persistência\" verificável em arquivo, commit ou teste, com evidência registrada.",
+    "evidence": ""
+  },
+  {
+    "id": "EDU-43",
+    "title": "Testar dez rotas",
+    "category": "Testes",
+    "status": "Backlog",
+    "description": "Testar dez rotas conforme o escopo Educa+ e o PDF v1.0.",
+    "acceptance": "Entrega de \"Testar dez rotas\" verificável em arquivo, commit ou teste, com evidência registrada.",
+    "evidence": ""
+  },
+  {
+    "id": "EDU-44",
+    "title": "Testar filtros e favoritos",
+    "category": "Testes",
+    "status": "Backlog",
+    "description": "Testar filtros e favoritos conforme o escopo Educa+ e o PDF v1.0.",
+    "acceptance": "Entrega de \"Testar filtros e favoritos\" verificável em arquivo, commit ou teste, com evidência registrada.",
+    "evidence": ""
+  },
+  {
+    "id": "EDU-45",
+    "title": "Testar teclado e contraste",
+    "category": "Testes",
+    "status": "Backlog",
+    "description": "Testar teclado e contraste conforme o escopo Educa+ e o PDF v1.0.",
+    "acceptance": "Entrega de \"Testar teclado e contraste\" verificável em arquivo, commit ou teste, com evidência registrada.",
+    "evidence": ""
+  },
+  {
+    "id": "EDU-46",
+    "title": "Testar 1440 768 e 390 pixels",
+    "category": "Testes",
+    "status": "Backlog",
+    "description": "Testar 1440 768 e 390 pixels conforme o escopo Educa+ e o PDF v1.0.",
+    "acceptance": "Entrega de \"Testar 1440 768 e 390 pixels\" verificável em arquivo, commit ou teste, com evidência registrada.",
+    "evidence": ""
+  },
+  {
+    "id": "EDU-47",
+    "title": "Validar build de produção",
+    "category": "Testes",
+    "status": "Backlog",
+    "description": "Validar build de produção conforme o escopo Educa+ e o PDF v1.0.",
+    "acceptance": "Entrega de \"Validar build de produção\" verificável em arquivo, commit ou teste, com evidência registrada.",
+    "evidence": ""
+  },
+  {
+    "id": "EDU-48",
+    "title": "Escrever README e arquitetura",
+    "category": "Documentação",
+    "status": "Backlog",
+    "description": "Escrever README e arquitetura conforme o escopo Educa+ e o PDF v1.0.",
+    "acceptance": "Entrega de \"Escrever README e arquitetura\" verificável em arquivo, commit ou teste, com evidência registrada.",
+    "evidence": ""
+  },
+  {
+    "id": "EDU-49",
+    "title": "Registrar evidências e limitações",
+    "category": "Documentação",
+    "status": "Backlog",
+    "description": "Registrar evidências e limitações conforme o escopo Educa+ e o PDF v1.0.",
+    "acceptance": "Entrega de \"Registrar evidências e limitações\" verificável em arquivo, commit ou teste, com evidência registrada.",
+    "evidence": ""
+  },
+  {
+    "id": "EDU-50",
+    "title": "Publicar e verificar rotas na Vercel",
+    "category": "Deploy",
+    "status": "Backlog",
+    "description": "Publicar e verificar rotas na Vercel conforme o escopo Educa+ e o PDF v1.0.",
+    "acceptance": "Entrega de \"Publicar e verificar rotas na Vercel\" verificável em arquivo, commit ou teste, com evidência registrada.",
+    "evidence": ""
+  }
+]
