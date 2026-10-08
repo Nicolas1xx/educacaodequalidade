@@ -1,0 +1,10 @@
+import {z} from 'zod';import {createDemo} from '../data/progress';import {lessons} from '../data/lessons';import {quizzes,gradeQuiz} from '../data/quizzes';import {grades} from '../data/students';import type {StudentState,A11y} from '../types';
+export const STUDENT_KEY='educa.student.v1';export const A11Y_KEY='educa.a11y.v1';
+const knownLesson=z.string().refine(id=>lessons.some(l=>l.id===id));const availableLesson=knownLesson.refine(id=>lessons.some(l=>l.id===id&&l.available));
+const studentSchema=z.object({version:z.literal(1),mode:z.enum(['demo','local']),student:z.object({name:z.string().trim().min(2).max(80),grade:z.string().refine(g=>grades.includes(g)),interests:z.array(z.enum(['mat','por','cie','his']))}),completed:z.array(availableLesson),started:z.array(availableLesson),favorites:z.array(knownLesson),attempts:z.array(z.object({id:z.string(),quizId:z.string(),answers:z.array(z.number().int().min(0).max(3)).length(5),score:z.number().int().min(0).max(5),date:z.string().datetime()}).refine(a=>{const q=quizzes.find(q=>q.id===a.quizId);return q&&gradeQuiz(q,a.answers)===a.score})),goals:z.array(z.object({id:z.string(),title:z.string(),done:z.boolean()})),activities:z.array(z.object({id:z.string(),text:z.string(),date:z.string().datetime()}))});
+const a11ySchema=z.object({fontScale:z.enum(['md','lg','xl']),highContrast:z.boolean(),reduceMotion:z.boolean(),wideSpacing:z.boolean()});
+export const defaultA11y:A11y={fontScale:'md',highContrast:false,reduceMotion:false,wideSpacing:false};
+export function readStudent(raw:string|null):StudentState {try{return raw?studentSchema.parse(JSON.parse(raw)):createDemo()}catch{return createDemo()}}
+export function readA11y(raw:string|null):A11y{try{return raw?a11ySchema.parse(JSON.parse(raw)):defaultA11y}catch{return defaultA11y}}
+export function readStorage(key:string):string|null{try{return localStorage.getItem(key)}catch{return null}}
+export function saveStorage(key:string,value:unknown):boolean{try{localStorage.setItem(key,JSON.stringify(value));return true}catch{return false}}
