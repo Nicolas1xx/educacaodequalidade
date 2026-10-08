@@ -1,0 +1,2 @@
+import type {StudentState} from '../types';import {lessons} from '../data/lessons';
+export function metrics(state:StudentState){const total=state.attempts.length;return {completed:state.completed.length,quizzes:total,accuracy:total?Math.round(state.attempts.reduce((n,a)=>n+a.score,0)/(total*5)*100):0,minutes:lessons.filter(l=>state.completed.includes(l.id)).reduce((n,l)=>n+l.minutes,0),goals:state.goals.length?Math.round(state.goals.filter(g=>g.done).length/state.goals.length*100):0}}
