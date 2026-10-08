@@ -1,0 +1,5 @@
+import type {Attempt,StudentState,Student} from '../types';
+import {demoStudent} from './students';import {demoGoals,createGoals} from './goals';import {demoActivities} from './activities';import {quizzes,gradeQuiz} from './quizzes';
+export const demoAttempts:Attempt[]=[['agua',[1,2,0,0,1]],['interpretacao',[1,2,0,1,0]],['fracoes',[1,0,2,0,0]]].map(([id,answers],i)=>{const quizId=id as string;const a=answers as number[];return {id:`demo-${i}`,quizId,answers:a,score:gradeQuiz(quizzes.find(q=>q.id===quizId)!,a),date:`2026-10-0${6+i}T14:00:00Z`};});
+export function createDemo():StudentState{return {version:1,mode:'demo',student:{...demoStudent,interests:[...demoStudent.interests]},completed:['agua','interpretacao'],started:['fracoes','agua','interpretacao'],favorites:['fracoes'],attempts:structuredClone(demoAttempts),goals:structuredClone(demoGoals),activities:structuredClone(demoActivities)}}
+export function createLocal(student:Student):StudentState{return {version:1,mode:'local',student,completed:[],started:[],favorites:[],attempts:[],goals:createGoals(),activities:[]}}
