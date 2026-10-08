@@ -5,8 +5,8 @@
     "category": "Planejamento",
     "status": "Concluído",
     "description": "Inspecionar repositório conforme o escopo Educa+ e o PDF v1.0.",
-    "acceptance": "Entrega de \"Inspecionar repositório\" verificável em arquivo, commit ou teste, com evidência registrada.",
-    "evidence": ""
+    "acceptance": "Verificar a entrega e o comportamento descritos nesta evidência: Repositório vazio confirmado pelo clone e pela integração GitHub",
+    "evidence": "Repositório vazio confirmado pelo clone e pela integração GitHub"
   },
   {
     "id": "EDU-02",
@@ -14,8 +14,8 @@
     "category": "Planejamento",
     "status": "Concluído",
     "description": "Ler onze páginas do protótipo conforme o escopo Educa+ e o PDF v1.0.",
-    "acceptance": "Entrega de \"Ler onze páginas do protótipo\" verificável em arquivo, commit ou teste, com evidência registrada.",
-    "evidence": ""
+    "acceptance": "Verificar a entrega e o comportamento descritos nesta evidência: 11 páginas extraídas e renderizadas antes da implementação",
+    "evidence": "11 páginas extraídas e renderizadas antes da implementação"
   },
   {
     "id": "EDU-03",
@@ -23,53 +23,53 @@
     "category": "Planejamento",
     "status": "Concluído",
     "description": "Mapear dez rotas conforme o escopo Educa+ e o PDF v1.0.",
-    "acceptance": "Entrega de \"Mapear dez rotas\" verificável em arquivo, commit ou teste, com evidência registrada.",
-    "evidence": ""
+    "acceptance": "Verificar a entrega e o comportamento descritos nesta evidência: src/app/router.tsx",
+    "evidence": "src/app/router.tsx"
   },
   {
     "id": "EDU-04",
     "title": "Definir requisitos funcionais",
     "category": "Planejamento",
-    "status": "Backlog",
+    "status": "Concluído",
     "description": "Definir requisitos funcionais conforme o escopo Educa+ e o PDF v1.0.",
-    "acceptance": "Entrega de \"Definir requisitos funcionais\" verificável em arquivo, commit ou teste, com evidência registrada.",
-    "evidence": ""
+    "acceptance": "Verificar a entrega e o comportamento descritos nesta evidência: docs/REQUISITOS.md",
+    "evidence": "docs/REQUISITOS.md"
   },
   {
     "id": "EDU-05",
     "title": "Definir requisitos não funcionais",
     "category": "Planejamento",
-    "status": "Backlog",
+    "status": "Concluído",
     "description": "Definir requisitos não funcionais conforme o escopo Educa+ e o PDF v1.0.",
-    "acceptance": "Entrega de \"Definir requisitos não funcionais\" verificável em arquivo, commit ou teste, com evidência registrada.",
-    "evidence": ""
+    "acceptance": "Verificar a entrega e o comportamento descritos nesta evidência: docs/REQUISITOS.md",
+    "evidence": "docs/REQUISITOS.md"
   },
   {
     "id": "EDU-06",
     "title": "Escrever histórias de usuário",
     "category": "Planejamento",
-    "status": "Backlog",
+    "status": "Concluído",
     "description": "Escrever histórias de usuário conforme o escopo Educa+ e o PDF v1.0.",
-    "acceptance": "Entrega de \"Escrever histórias de usuário\" verificável em arquivo, commit ou teste, com evidência registrada.",
-    "evidence": ""
+    "acceptance": "Verificar a entrega e o comportamento descritos nesta evidência: docs/REQUISITOS.md",
+    "evidence": "docs/REQUISITOS.md"
   },
   {
     "id": "EDU-07",
     "title": "Pesquisar cinco referências",
     "category": "Planejamento",
-    "status": "Backlog",
+    "status": "Concluído",
     "description": "Pesquisar cinco referências conforme o escopo Educa+ e o PDF v1.0.",
-    "acceptance": "Entrega de \"Pesquisar cinco referências\" verificável em arquivo, commit ou teste, com evidência registrada.",
-    "evidence": ""
+    "acceptance": "Verificar a entrega e o comportamento descritos nesta evidência: docs/BENCHMARKING.md",
+    "evidence": "docs/BENCHMARKING.md"
   },
   {
     "id": "EDU-08",
     "title": "Definir proposta de valor",
     "category": "Planejamento",
-    "status": "Backlog",
+    "status": "Concluído",
     "description": "Definir proposta de valor conforme o escopo Educa+ e o PDF v1.0.",
-    "acceptance": "Entrega de \"Definir proposta de valor\" verificável em arquivo, commit ou teste, com evidência registrada.",
-    "evidence": ""
+    "acceptance": "Verificar a entrega e o comportamento descritos nesta evidência: docs/BENCHMARKING.md",
+    "evidence": "docs/BENCHMARKING.md"
   },
   {
     "id": "EDU-09",
@@ -77,8 +77,8 @@
     "category": "Prototipação",
     "status": "Concluído",
     "description": "Extrair tokens de cor conforme o escopo Educa+ e o PDF v1.0.",
-    "acceptance": "Entrega de \"Extrair tokens de cor\" verificável em arquivo, commit ou teste, com evidência registrada.",
-    "evidence": ""
+    "acceptance": "Verificar a entrega e o comportamento descritos nesta evidência: src/index.css e tailwind.config.js",
+    "evidence": "src/index.css e tailwind.config.js"
   },
   {
     "id": "EDU-10",
@@ -86,8 +86,8 @@
     "category": "Prototipação",
     "status": "Concluído",
     "description": "Conferir tipografia Inter conforme o escopo Educa+ e o PDF v1.0.",
-    "acceptance": "Entrega de \"Conferir tipografia Inter\" verificável em arquivo, commit ou teste, com evidência registrada.",
-    "evidence": ""
+    "acceptance": "Verificar a entrega e o comportamento descritos nesta evidência: @fontsource-variable/inter e src/index.css",
+    "evidence": "@fontsource-variable/inter e src/index.css"
   },
   {
     "id": "EDU-11",
@@ -95,8 +95,8 @@
     "category": "Prototipação",
     "status": "Concluído",
     "description": "Mapear breakpoints conforme o escopo Educa+ e o PDF v1.0.",
-    "acceptance": "Entrega de \"Mapear breakpoints\" verificável em arquivo, commit ou teste, com evidência registrada.",
-    "evidence": ""
+    "acceptance": "Verificar a entrega e o comportamento descritos nesta evidência: src/App.css",
+    "evidence": "src/App.css"
   },
   {
     "id": "EDU-12",
@@ -104,26 +104,26 @@
     "category": "Prototipação",
     "status": "Concluído",
     "description": "Catalogar componentes conforme o escopo Educa+ e o PDF v1.0.",
-    "acceptance": "Entrega de \"Catalogar componentes\" verificável em arquivo, commit ou teste, com evidência registrada.",
-    "evidence": ""
+    "acceptance": "Verificar a entrega e o comportamento descritos nesta evidência: src/components/ui",
+    "evidence": "src/components/ui"
   },
   {
     "id": "EDU-13",
     "title": "Reproduzir identidade Educa+",
     "category": "Prototipação",
-    "status": "Backlog",
+    "status": "Concluído",
     "description": "Reproduzir identidade Educa+ conforme o escopo Educa+ e o PDF v1.0.",
-    "acceptance": "Entrega de \"Reproduzir identidade Educa+\" verificável em arquivo, commit ou teste, com evidência registrada.",
-    "evidence": ""
+    "acceptance": "Verificar a entrega e o comportamento descritos nesta evidência: Logo em src/components/ui/Primitives.tsx e public/favicon.svg",
+    "evidence": "Logo em src/components/ui/Primitives.tsx e public/favicon.svg"
   },
   {
     "id": "EDU-14",
     "title": "Documentar cobertura visual do PDF",
     "category": "Prototipação",
-    "status": "Backlog",
+    "status": "Concluído",
     "description": "Documentar cobertura visual do PDF conforme o escopo Educa+ e o PDF v1.0.",
-    "acceptance": "Entrega de \"Documentar cobertura visual do PDF\" verificável em arquivo, commit ou teste, com evidência registrada.",
-    "evidence": ""
+    "acceptance": "Verificar a entrega e o comportamento descritos nesta evidência: docs/ARQUITETURA.md",
+    "evidence": "docs/ARQUITETURA.md"
   },
   {
     "id": "EDU-15",
@@ -131,8 +131,8 @@
     "category": "Desenvolvimento",
     "status": "Concluído",
     "description": "Inicializar React e TypeScript conforme o escopo Educa+ e o PDF v1.0.",
-    "acceptance": "Entrega de \"Inicializar React e TypeScript\" verificável em arquivo, commit ou teste, com evidência registrada.",
-    "evidence": ""
+    "acceptance": "Verificar a entrega e o comportamento descritos nesta evidência: package.json e commit inicial",
+    "evidence": "package.json e commit inicial"
   },
   {
     "id": "EDU-16",
@@ -140,8 +140,8 @@
     "category": "Desenvolvimento",
     "status": "Concluído",
     "description": "Configurar Tailwind conforme o escopo Educa+ e o PDF v1.0.",
-    "acceptance": "Entrega de \"Configurar Tailwind\" verificável em arquivo, commit ou teste, com evidência registrada.",
-    "evidence": ""
+    "acceptance": "Verificar a entrega e o comportamento descritos nesta evidência: tailwind.config.js e postcss.config.js",
+    "evidence": "tailwind.config.js e postcss.config.js"
   },
   {
     "id": "EDU-17",
@@ -149,8 +149,8 @@
     "category": "Desenvolvimento",
     "status": "Concluído",
     "description": "Definir interfaces de dados conforme o escopo Educa+ e o PDF v1.0.",
-    "acceptance": "Entrega de \"Definir interfaces de dados\" verificável em arquivo, commit ou teste, com evidência registrada.",
-    "evidence": ""
+    "acceptance": "Verificar a entrega e o comportamento descritos nesta evidência: src/types.ts",
+    "evidence": "src/types.ts"
   },
   {
     "id": "EDU-18",
@@ -158,8 +158,8 @@
     "category": "Desenvolvimento",
     "status": "Concluído",
     "description": "Cadastrar disciplinas locais conforme o escopo Educa+ e o PDF v1.0.",
-    "acceptance": "Entrega de \"Cadastrar disciplinas locais\" verificável em arquivo, commit ou teste, com evidência registrada.",
-    "evidence": ""
+    "acceptance": "Verificar a entrega e o comportamento descritos nesta evidência: src/data/subjects.ts",
+    "evidence": "src/data/subjects.ts"
   },
   {
     "id": "EDU-19",
@@ -167,278 +167,278 @@
     "category": "Desenvolvimento",
     "status": "Concluído",
     "description": "Escrever aulas completas conforme o escopo Educa+ e o PDF v1.0.",
-    "acceptance": "Entrega de \"Escrever aulas completas\" verificável em arquivo, commit ou teste, com evidência registrada.",
-    "evidence": ""
+    "acceptance": "Verificar a entrega e o comportamento descritos nesta evidência: src/data/lessons.ts",
+    "evidence": "src/data/lessons.ts"
   },
   {
     "id": "EDU-20",
     "title": "Escrever vinte questões",
     "category": "Desenvolvimento",
-    "status": "Backlog",
+    "status": "Concluído",
     "description": "Escrever vinte questões conforme o escopo Educa+ e o PDF v1.0.",
-    "acceptance": "Entrega de \"Escrever vinte questões\" verificável em arquivo, commit ou teste, com evidência registrada.",
-    "evidence": ""
+    "acceptance": "Verificar a entrega e o comportamento descritos nesta evidência: src/data/quizzes.ts",
+    "evidence": "src/data/quizzes.ts"
   },
   {
     "id": "EDU-21",
     "title": "Criar perfil demonstrativo",
     "category": "Desenvolvimento",
-    "status": "Backlog",
+    "status": "Concluído",
     "description": "Criar perfil demonstrativo conforme o escopo Educa+ e o PDF v1.0.",
-    "acceptance": "Entrega de \"Criar perfil demonstrativo\" verificável em arquivo, commit ou teste, com evidência registrada.",
-    "evidence": ""
+    "acceptance": "Verificar a entrega e o comportamento descritos nesta evidência: src/data/students.ts e progress.ts",
+    "evidence": "src/data/students.ts e progress.ts"
   },
   {
     "id": "EDU-22",
     "title": "Validar armazenamento local",
     "category": "Desenvolvimento",
-    "status": "Backlog",
+    "status": "Concluído",
     "description": "Validar armazenamento local conforme o escopo Educa+ e o PDF v1.0.",
-    "acceptance": "Entrega de \"Validar armazenamento local\" verificável em arquivo, commit ou teste, com evidência registrada.",
-    "evidence": ""
+    "acceptance": "Verificar a entrega e o comportamento descritos nesta evidência: src/lib/storage.ts; testes unitários e navegador aprovados",
+    "evidence": "src/lib/storage.ts; testes unitários e navegador aprovados"
   },
   {
     "id": "EDU-23",
     "title": "Criar contexto do estudante",
     "category": "Desenvolvimento",
-    "status": "Backlog",
+    "status": "Concluído",
     "description": "Criar contexto do estudante conforme o escopo Educa+ e o PDF v1.0.",
-    "acceptance": "Entrega de \"Criar contexto do estudante\" verificável em arquivo, commit ou teste, com evidência registrada.",
-    "evidence": ""
+    "acceptance": "Verificar a entrega e o comportamento descritos nesta evidência: src/app/providers/StudentProvider.tsx",
+    "evidence": "src/app/providers/StudentProvider.tsx"
   },
   {
     "id": "EDU-24",
     "title": "Criar contexto de acessibilidade",
     "category": "Desenvolvimento",
-    "status": "Backlog",
+    "status": "Concluído",
     "description": "Criar contexto de acessibilidade conforme o escopo Educa+ e o PDF v1.0.",
-    "acceptance": "Entrega de \"Criar contexto de acessibilidade\" verificável em arquivo, commit ou teste, com evidência registrada.",
-    "evidence": ""
+    "acceptance": "Verificar a entrega e o comportamento descritos nesta evidência: src/app/providers/A11yProvider.tsx",
+    "evidence": "src/app/providers/A11yProvider.tsx"
   },
   {
     "id": "EDU-25",
     "title": "Implementar componentes básicos",
     "category": "Desenvolvimento",
-    "status": "Backlog",
+    "status": "Concluído",
     "description": "Implementar componentes básicos conforme o escopo Educa+ e o PDF v1.0.",
-    "acceptance": "Entrega de \"Implementar componentes básicos\" verificável em arquivo, commit ou teste, com evidência registrada.",
-    "evidence": ""
+    "acceptance": "Verificar a entrega e o comportamento descritos nesta evidência: src/components/ui/Primitives.tsx",
+    "evidence": "src/components/ui/Primitives.tsx"
   },
   {
     "id": "EDU-26",
     "title": "Implementar modal acessível",
     "category": "Desenvolvimento",
-    "status": "Backlog",
+    "status": "Concluído",
     "description": "Implementar modal acessível conforme o escopo Educa+ e o PDF v1.0.",
-    "acceptance": "Entrega de \"Implementar modal acessível\" verificável em arquivo, commit ou teste, com evidência registrada.",
-    "evidence": ""
+    "acceptance": "Verificar a entrega e o comportamento descritos nesta evidência: src/components/ui/Modal.tsx; teste de Escape e retorno de foco aprovado",
+    "evidence": "src/components/ui/Modal.tsx; teste de Escape e retorno de foco aprovado"
   },
   {
     "id": "EDU-27",
     "title": "Implementar navegação responsiva",
     "category": "Desenvolvimento",
-    "status": "Backlog",
+    "status": "Concluído",
     "description": "Implementar navegação responsiva conforme o escopo Educa+ e o PDF v1.0.",
-    "acceptance": "Entrega de \"Implementar navegação responsiva\" verificável em arquivo, commit ou teste, com evidência registrada.",
-    "evidence": ""
+    "acceptance": "Verificar a entrega e o comportamento descritos nesta evidência: src/layouts/StudentLayout.tsx; três larguras aprovadas",
+    "evidence": "src/layouts/StudentLayout.tsx; três larguras aprovadas"
   },
   {
     "id": "EDU-28",
     "title": "Implementar landing page",
     "category": "Desenvolvimento",
-    "status": "Backlog",
+    "status": "Concluído",
     "description": "Implementar landing page conforme o escopo Educa+ e o PDF v1.0.",
-    "acceptance": "Entrega de \"Implementar landing page\" verificável em arquivo, commit ou teste, com evidência registrada.",
-    "evidence": ""
+    "acceptance": "Verificar a entrega e o comportamento descritos nesta evidência: src/pages/Landing.tsx",
+    "evidence": "src/pages/Landing.tsx"
   },
   {
     "id": "EDU-29",
     "title": "Implementar cadastro",
     "category": "Desenvolvimento",
-    "status": "Backlog",
+    "status": "Concluído",
     "description": "Implementar cadastro conforme o escopo Educa+ e o PDF v1.0.",
-    "acceptance": "Entrega de \"Implementar cadastro\" verificável em arquivo, commit ou teste, com evidência registrada.",
-    "evidence": ""
+    "acceptance": "Verificar a entrega e o comportamento descritos nesta evidência: src/pages/Signup.tsx; cadastro validado no navegador",
+    "evidence": "src/pages/Signup.tsx; cadastro validado no navegador"
   },
   {
     "id": "EDU-30",
     "title": "Implementar dashboard",
     "category": "Desenvolvimento",
-    "status": "Backlog",
+    "status": "Concluído",
     "description": "Implementar dashboard conforme o escopo Educa+ e o PDF v1.0.",
-    "acceptance": "Entrega de \"Implementar dashboard\" verificável em arquivo, commit ou teste, com evidência registrada.",
-    "evidence": ""
+    "acceptance": "Verificar a entrega e o comportamento descritos nesta evidência: src/pages/Dashboard.tsx",
+    "evidence": "src/pages/Dashboard.tsx"
   },
   {
     "id": "EDU-31",
     "title": "Implementar disciplinas",
     "category": "Desenvolvimento",
-    "status": "Backlog",
+    "status": "Concluído",
     "description": "Implementar disciplinas conforme o escopo Educa+ e o PDF v1.0.",
-    "acceptance": "Entrega de \"Implementar disciplinas\" verificável em arquivo, commit ou teste, com evidência registrada.",
-    "evidence": ""
+    "acceptance": "Verificar a entrega e o comportamento descritos nesta evidência: src/pages/Subjects.tsx",
+    "evidence": "src/pages/Subjects.tsx"
   },
   {
     "id": "EDU-32",
     "title": "Implementar biblioteca e pesquisa",
     "category": "Desenvolvimento",
-    "status": "Backlog",
+    "status": "Concluído",
     "description": "Implementar biblioteca e pesquisa conforme o escopo Educa+ e o PDF v1.0.",
-    "acceptance": "Entrega de \"Implementar biblioteca e pesquisa\" verificável em arquivo, commit ou teste, com evidência registrada.",
-    "evidence": ""
+    "acceptance": "Verificar a entrega e o comportamento descritos nesta evidência: src/pages/Library.tsx; teste de filtros e pesquisa aprovado",
+    "evidence": "src/pages/Library.tsx; teste de filtros e pesquisa aprovado"
   },
   {
     "id": "EDU-33",
     "title": "Implementar favoritos",
     "category": "Desenvolvimento",
-    "status": "Backlog",
+    "status": "Concluído",
     "description": "Implementar favoritos conforme o escopo Educa+ e o PDF v1.0.",
-    "acceptance": "Entrega de \"Implementar favoritos\" verificável em arquivo, commit ou teste, com evidência registrada.",
-    "evidence": ""
+    "acceptance": "Verificar a entrega e o comportamento descritos nesta evidência: src/components/LessonCard.tsx; persistência de favorito aprovada",
+    "evidence": "src/components/LessonCard.tsx; persistência de favorito aprovada"
   },
   {
     "id": "EDU-34",
     "title": "Implementar aula e sumário",
     "category": "Desenvolvimento",
-    "status": "Backlog",
+    "status": "Concluído",
     "description": "Implementar aula e sumário conforme o escopo Educa+ e o PDF v1.0.",
-    "acceptance": "Entrega de \"Implementar aula e sumário\" verificável em arquivo, commit ou teste, com evidência registrada.",
-    "evidence": ""
+    "acceptance": "Verificar a entrega e o comportamento descritos nesta evidência: src/pages/Lesson.tsx",
+    "evidence": "src/pages/Lesson.tsx"
   },
   {
     "id": "EDU-35",
     "title": "Implementar quiz por etapas",
     "category": "Desenvolvimento",
-    "status": "Backlog",
+    "status": "Concluído",
     "description": "Implementar quiz por etapas conforme o escopo Educa+ e o PDF v1.0.",
-    "acceptance": "Entrega de \"Implementar quiz por etapas\" verificável em arquivo, commit ou teste, com evidência registrada.",
-    "evidence": ""
+    "acceptance": "Verificar a entrega e o comportamento descritos nesta evidência: src/pages/Quiz.tsx; cinco respostas e bloqueio de incompletas aprovados",
+    "evidence": "src/pages/Quiz.tsx; cinco respostas e bloqueio de incompletas aprovados"
   },
   {
     "id": "EDU-36",
     "title": "Implementar resultado comentado",
     "category": "Desenvolvimento",
-    "status": "Backlog",
+    "status": "Concluído",
     "description": "Implementar resultado comentado conforme o escopo Educa+ e o PDF v1.0.",
-    "acceptance": "Entrega de \"Implementar resultado comentado\" verificável em arquivo, commit ou teste, com evidência registrada.",
-    "evidence": ""
+    "acceptance": "Verificar a entrega e o comportamento descritos nesta evidência: src/pages/Result.tsx; resultado 5/5 confirmado",
+    "evidence": "src/pages/Result.tsx; resultado 5/5 confirmado"
   },
   {
     "id": "EDU-37",
     "title": "Implementar gráficos e histórico",
     "category": "Desenvolvimento",
-    "status": "Backlog",
+    "status": "Concluído",
     "description": "Implementar gráficos e histórico conforme o escopo Educa+ e o PDF v1.0.",
-    "acceptance": "Entrega de \"Implementar gráficos e histórico\" verificável em arquivo, commit ou teste, com evidência registrada.",
-    "evidence": ""
+    "acceptance": "Verificar a entrega e o comportamento descritos nesta evidência: src/pages/Progress.tsx; histórico 100% confirmado",
+    "evidence": "src/pages/Progress.tsx; histórico 100% confirmado"
   },
   {
     "id": "EDU-38",
     "title": "Implementar edição de perfil",
     "category": "Desenvolvimento",
-    "status": "Backlog",
+    "status": "Concluído",
     "description": "Implementar edição de perfil conforme o escopo Educa+ e o PDF v1.0.",
-    "acceptance": "Entrega de \"Implementar edição de perfil\" verificável em arquivo, commit ou teste, com evidência registrada.",
-    "evidence": ""
+    "acceptance": "Verificar a entrega e o comportamento descritos nesta evidência: src/pages/Profile.tsx; edição e recarga aprovadas",
+    "evidence": "src/pages/Profile.tsx; edição e recarga aprovadas"
   },
   {
     "id": "EDU-39",
     "title": "Implementar metas persistentes",
     "category": "Desenvolvimento",
-    "status": "Backlog",
+    "status": "Concluído",
     "description": "Implementar metas persistentes conforme o escopo Educa+ e o PDF v1.0.",
-    "acceptance": "Entrega de \"Implementar metas persistentes\" verificável em arquivo, commit ou teste, com evidência registrada.",
-    "evidence": ""
+    "acceptance": "Verificar a entrega e o comportamento descritos nesta evidência: src/pages/Dashboard.tsx; checkbox persistiu após recarga",
+    "evidence": "src/pages/Dashboard.tsx; checkbox persistiu após recarga"
   },
   {
     "id": "EDU-40",
     "title": "Restaurar demonstração",
     "category": "Desenvolvimento",
-    "status": "Backlog",
+    "status": "Concluído",
     "description": "Restaurar demonstração conforme o escopo Educa+ e o PDF v1.0.",
-    "acceptance": "Entrega de \"Restaurar demonstração\" verificável em arquivo, commit ou teste, com evidência registrada.",
-    "evidence": ""
+    "acceptance": "Verificar a entrega e o comportamento descritos nesta evidência: src/pages/Profile.tsx; cancelamento e confirmação testados",
+    "evidence": "src/pages/Profile.tsx; cancelamento e confirmação testados"
   },
   {
     "id": "EDU-41",
     "title": "Testar correção automática",
     "category": "Testes",
-    "status": "Backlog",
+    "status": "Concluído",
     "description": "Testar correção automática conforme o escopo Educa+ e o PDF v1.0.",
-    "acceptance": "Entrega de \"Testar correção automática\" verificável em arquivo, commit ou teste, com evidência registrada.",
-    "evidence": ""
+    "acceptance": "Verificar a entrega e o comportamento descritos nesta evidência: Vitest: 20 testes aprovados",
+    "evidence": "Vitest: 20 testes aprovados"
   },
   {
     "id": "EDU-42",
     "title": "Testar cadastro e persistência",
     "category": "Testes",
-    "status": "Backlog",
+    "status": "Concluído",
     "description": "Testar cadastro e persistência conforme o escopo Educa+ e o PDF v1.0.",
-    "acceptance": "Entrega de \"Testar cadastro e persistência\" verificável em arquivo, commit ou teste, com evidência registrada.",
-    "evidence": ""
+    "acceptance": "Verificar a entrega e o comportamento descritos nesta evidência: Playwright: fluxo local completo aprovado",
+    "evidence": "Playwright: fluxo local completo aprovado"
   },
   {
     "id": "EDU-43",
     "title": "Testar dez rotas",
     "category": "Testes",
-    "status": "Backlog",
+    "status": "Concluído",
     "description": "Testar dez rotas conforme o escopo Educa+ e o PDF v1.0.",
-    "acceptance": "Entrega de \"Testar dez rotas\" verificável em arquivo, commit ou teste, com evidência registrada.",
-    "evidence": ""
+    "acceptance": "Verificar a entrega e o comportamento descritos nesta evidência: Playwright: dez rotas em três larguras aprovadas",
+    "evidence": "Playwright: dez rotas em três larguras aprovadas"
   },
   {
     "id": "EDU-44",
     "title": "Testar filtros e favoritos",
     "category": "Testes",
-    "status": "Backlog",
+    "status": "Concluído",
     "description": "Testar filtros e favoritos conforme o escopo Educa+ e o PDF v1.0.",
-    "acceptance": "Entrega de \"Testar filtros e favoritos\" verificável em arquivo, commit ou teste, com evidência registrada.",
-    "evidence": ""
+    "acceptance": "Verificar a entrega e o comportamento descritos nesta evidência: Playwright: filtros, favorito e modal aprovados",
+    "evidence": "Playwright: filtros, favorito e modal aprovados"
   },
   {
     "id": "EDU-45",
     "title": "Testar teclado e contraste",
     "category": "Testes",
-    "status": "Backlog",
+    "status": "Concluído",
     "description": "Testar teclado e contraste conforme o escopo Educa+ e o PDF v1.0.",
-    "acceptance": "Entrega de \"Testar teclado e contraste\" verificável em arquivo, commit ou teste, com evidência registrada.",
-    "evidence": ""
+    "acceptance": "Verificar a entrega e o comportamento descritos nesta evidência: Playwright: foco de modal e preferências; axe aprovado após correção",
+    "evidence": "Playwright: foco de modal e preferências; axe aprovado após correção"
   },
   {
     "id": "EDU-46",
     "title": "Testar 1440 768 e 390 pixels",
     "category": "Testes",
-    "status": "Backlog",
+    "status": "Concluído",
     "description": "Testar 1440 768 e 390 pixels conforme o escopo Educa+ e o PDF v1.0.",
-    "acceptance": "Entrega de \"Testar 1440 768 e 390 pixels\" verificável em arquivo, commit ou teste, com evidência registrada.",
-    "evidence": ""
+    "acceptance": "Verificar a entrega e o comportamento descritos nesta evidência: Playwright: 1440, 768, 390; nenhuma rolagem horizontal da página",
+    "evidence": "Playwright: 1440, 768, 390; nenhuma rolagem horizontal da página"
   },
   {
     "id": "EDU-47",
     "title": "Validar build de produção",
     "category": "Testes",
-    "status": "Backlog",
+    "status": "Concluído",
     "description": "Validar build de produção conforme o escopo Educa+ e o PDF v1.0.",
-    "acceptance": "Entrega de \"Validar build de produção\" verificável em arquivo, commit ou teste, com evidência registrada.",
-    "evidence": ""
+    "acceptance": "Verificar a entrega e o comportamento descritos nesta evidência: npm run build: TypeScript e Vite aprovados",
+    "evidence": "npm run build: TypeScript e Vite aprovados"
   },
   {
     "id": "EDU-48",
     "title": "Escrever README e arquitetura",
     "category": "Documentação",
-    "status": "Backlog",
+    "status": "Concluído",
     "description": "Escrever README e arquitetura conforme o escopo Educa+ e o PDF v1.0.",
-    "acceptance": "Entrega de \"Escrever README e arquitetura\" verificável em arquivo, commit ou teste, com evidência registrada.",
-    "evidence": ""
+    "acceptance": "Verificar a entrega e o comportamento descritos nesta evidência: README.md e docs/ARQUITETURA.md",
+    "evidence": "README.md e docs/ARQUITETURA.md"
   },
   {
     "id": "EDU-49",
     "title": "Registrar evidências e limitações",
     "category": "Documentação",
-    "status": "Backlog",
+    "status": "Concluído",
     "description": "Registrar evidências e limitações conforme o escopo Educa+ e o PDF v1.0.",
-    "acceptance": "Entrega de \"Registrar evidências e limitações\" verificável em arquivo, commit ou teste, com evidência registrada.",
-    "evidence": ""
+    "acceptance": "Verificar a entrega e o comportamento descritos nesta evidência: docs/ENTREGA.md",
+    "evidence": "docs/ENTREGA.md"
   },
   {
     "id": "EDU-50",
@@ -446,7 +446,7 @@
     "category": "Deploy",
     "status": "Backlog",
     "description": "Publicar e verificar rotas na Vercel conforme o escopo Educa+ e o PDF v1.0.",
-    "acceptance": "Entrega de \"Publicar e verificar rotas na Vercel\" verificável em arquivo, commit ou teste, com evidência registrada.",
-    "evidence": ""
+    "acceptance": "Aplicação acessível na Vercel e rota interna recarregável.",
+    "evidence": "Vercel: POST /v13/deployments retornou 403, sem permissão para criar projeto; CLI não instalada"
   }
 ]
