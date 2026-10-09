@@ -1,7 +1,5 @@
 # Relatório de entrega
 
-Data: 08/10/2026, America/Sao_Paulo. Execução iniciada aproximadamente às 19h51, dentro da janela de quatro horas. A pedido do usuário, a revisão foi limitada aos testes já preparados e à correção objetiva encontrada, sem ampliar a auditoria.
-
 ## Entregas
 
 - **10 telas e 10 rotas** implementadas.
