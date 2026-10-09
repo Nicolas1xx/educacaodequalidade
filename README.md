@@ -1,4 +1,4 @@
-# Educa+ — Aprender é para Todos
+# Educa+ — Aprender é para Todas as Pessoas
 
 Plataforma educacional acadêmica alinhada ao **ODS 4**, desenvolvida para um hackathon de Frameworks Front-end com limite de quatro horas.
 
