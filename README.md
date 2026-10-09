@@ -68,7 +68,7 @@ O hackathon prevê quatro integrantes. Seus nomes e contribuições humanas não
 
 ## Inteligência Artificial
 
-Codex foi efetivamente utilizado nesta execução para leitura do protótipo, implementação, documentação e testes. O pedido menciona Claude na prototipação, mas a autoria do PDF não foi confirmada nesta sessão; confirmar com a equipe antes de atribuir esse uso.
+Codex foi efetivamente utilizado nesta execução para leitura do protótipo, implementação, documentação e testes. Também utilizamos o Claude como ajuda para ideias e partes na prototipação.
 
 ## Publicação
 
