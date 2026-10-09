@@ -43,6 +43,14 @@ Materiais dispersos e pouca visibilidade sobre a própria evolução dificultam 
 > [!NOTE]
 > Os dados são **100% mockados em TypeScript** e a persistência usa o `localStorage`. Não há back-end, banco de dados, APIs educacionais nem login real.
 
+## 🎨 Protótipo
+
+O protótipo navegável do Educa+ reúne as 10 telas, as versões desktop, tablet e mobile, o design system e as especificações para React + Tailwind.
+
+🔗 **[Acessar o protótipo](https://claude.ai/artifact/DotnfVrg9aCHSimjaK9hgL)**
+
+Fluxo principal: Landing → Cadastro → Dashboard → Disciplinas → Biblioteca → Aula → Quiz → Resultado → Progresso. O Perfil e as configurações de acessibilidade ficam no menu lateral.
+
 ### Comportamento dos dados locais
 
 - O perfil fictício **Ana** demonstra gráficos e resultados.
@@ -160,12 +168,12 @@ Não são necessárias variáveis de ambiente. O `vercel.json` contém o redirec
 
 O hackathon prevê quatro integrantes. Nomes e contribuições devem ser preenchidos pela equipe.
 
-| Integrante | Contribuição |
-| --- | --- |
-| _a preencher_ | _a preencher_ |
-| _a preencher_ | _a preencher_ |
-| _a preencher_ | _a preencher_ |
-| _a preencher_ | _a preencher_ |
+| Integrante 
+| --- |
+| Joao Alexandre
+| Pietro
+| Nicolas 
+| Pedro Vitor 
 
 ---
 
