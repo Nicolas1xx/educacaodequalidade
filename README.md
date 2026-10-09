@@ -1,75 +1,172 @@
-# Educa+ — Aprender é para Todas as Pessoas
+<div align="center">
 
-Plataforma educacional acadêmica alinhada ao **ODS 4**, desenvolvida para um hackathon de Frameworks Front-end com limite de quatro horas.
+# Educa+
 
-**Dados 100% mockados em TypeScript e persistência no localStorage. Sem backend, banco, APIs educacionais ou login real.**
+**Aprender é para todas as pessoas.**
 
-## Executar
+Plataforma educacional alinhada ao **ODS 4 – Educação de Qualidade**, desenvolvida para um hackathon de Frameworks Front-end (limite de 4 horas).
 
-Requer Node.js 24 (ambiente utilizado) e npm.
+![React](https://img.shields.io/badge/React-20232A?logo=react&logoColor=61DAFB)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white)
+![Vite](https://img.shields.io/badge/Vite-646CFF?logo=vite&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?logo=tailwindcss&logoColor=white)
+![Vitest](https://img.shields.io/badge/Vitest-6E9F18?logo=vitest&logoColor=white)
+![Playwright](https://img.shields.io/badge/Playwright-2EAD33?logo=playwright&logoColor=white)
+![Vercel](https://img.shields.io/badge/Vercel-000000?logo=vercel&logoColor=white)
 
-```sh
-npm ci
-npm run dev
-npm run build
-npm run preview
-npm test
-npm run lint
-```
+[Aplicação publicada](docs/ENTREGA.md) · [Requisitos](docs/REQUISITOS.md) · [Arquitetura](docs/ARQUITETURA.md) · [Relatório de entrega](docs/ENTREGA.md)
 
-Testes de navegador: com `npm run dev` ativo e Google Chrome instalado, execute `npm run test:e2e`. `BASE_URL` permite apontar para outra origem. Os relatórios locais ficam em `test-results/` e não são enviados ao Git.
+</div>
 
-## Problema, público e proposta
+---
 
-Materiais dispersos e pouca visibilidade sobre a própria evolução podem dificultar o estudo independente. A proposta é reunir aulas curtas, quizzes comentados, metas e ajustes de acessibilidade. Público pretendido: Fundamental II e Ensino Médio; esta demonstração contém amostras introdutórias, não um currículo completo.
+## Sumário
+
+- [Sobre o projeto](#sobre-o-projeto)
+- [Funcionalidades e rotas](#funcionalidades-e-rotas)
+- [Tecnologias](#tecnologias)
+- [Como executar](#como-executar)
+- [Testes](#testes)
+- [Documentação](#documentação)
+- [Processo de desenvolvimento](#processo-de-desenvolvimento)
+- [Uso de Inteligência Artificial](#uso-de-inteligência-artificial)
+- [Publicação](#publicação)
+- [Equipe](#equipe)
+
+## Sobre o projeto
+
+Materiais dispersos e pouca visibilidade sobre a própria evolução dificultam o estudo independente. O Educa+ reúne em um só lugar aulas curtas, quizzes comentados, metas e ajustes de acessibilidade.
+
+- **Público pretendido:** Ensino Fundamental II e Ensino Médio.
+- **Escopo desta demonstração:** amostras introdutórias de conteúdo, e não um currículo completo.
+
+> [!NOTE]
+> Os dados são **100% mockados em TypeScript** e a persistência usa o `localStorage`. Não há back-end, banco de dados, APIs educacionais nem login real.
+
+### Comportamento dos dados locais
+
+- O perfil fictício **Ana** demonstra gráficos e resultados.
+- Criar um perfil local inicia a conta sem histórico.
+- **Restaurar demonstração** exige confirmação e substitui os dados locais.
+- Apagar os dados do navegador remove o perfil; não há sincronização.
+- O botão **Entrar** abre o perfil deste navegador, sem autenticação.
 
 ## Funcionalidades e rotas
 
 | Tela | Rota | Entrega |
 | --- | --- | --- |
-| Landing | `/` | Hero, benefícios, disciplinas, acessibilidade, ODS e footer |
-| Cadastro | `/cadastro` | Nome/apelido, ano, interesses e preferências |
+| Landing | `/` | Hero, benefícios, disciplinas, acessibilidade, ODS e rodapé |
+| Cadastro | `/cadastro` | Nome ou apelido, ano, interesses e preferências |
 | Dashboard | `/app` | Saudação, quatro indicadores, metas, atividades e aulas |
 | Disciplinas | `/app/disciplinas` | Quatro matérias e progresso calculado |
 | Biblioteca | `/app/biblioteca` | Pesquisa, filtros, favoritos e modal |
 | Aula | `/app/aula/:id` | Objetivos, explicações, exemplos, sumário e conclusão |
 | Quiz | `/app/quiz/:id` | Cinco etapas, quatro alternativas, dicas e validação |
-| Resultado | `/app/quiz/:id/resultado` | Nota, anel, feedback e correção comentada |
+| Resultado | `/app/quiz/:id/resultado` | Nota, anel de progresso, feedback e correção comentada |
 | Progresso | `/app/progresso` | Gráfico, desempenho e histórico |
-| Perfil | `/app/perfil` | Edição e acessibilidade persistente |
+| Perfil | `/app/perfil` | Edição de dados e acessibilidade persistente |
 
-IDs completos: `fracoes`, `interpretacao`, `agua`, `fontes`. Quatro itens adicionais demonstram o estado indisponível.
+**Conteúdos completos:** `fracoes`, `interpretacao`, `agua` e `fontes`. Outros quatro itens demonstram o estado indisponível.
 
-O perfil fictício Ana demonstra gráficos e resultados. Criar perfil local inicia sem histórico. Restaurar demonstração exige confirmação e substitui os dados locais. Apagar os dados do navegador remove o perfil; não há sincronização. O botão Entrar abre o perfil deste navegador, sem autenticação.
+## Tecnologias
 
-## Tecnologias e framework
+| Área | Ferramentas |
+| --- | --- |
+| Interface | React, TypeScript, Vite |
+| Estilo | Tailwind CSS |
+| Navegação e estado | React Router, Context API |
+| Dados e validação | Zod |
+| Visualização | Recharts, Lucide React |
+| Tipografia | Bitter e Atkinson Hyperlegible Next (hospedadas localmente) |
+| Qualidade | Vitest, Playwright, ESLint |
+| Versionamento e hospedagem | Git, GitHub, Vercel (hospedagem estática) |
 
-React, TypeScript, Vite, Tailwind CSS, React Router, Lucide React, Recharts, Context API, Zod e fontes Bitter e Atkinson Hyperlegible Next hospedadas localmente. Versões exatas resolvidas no `package-lock.json`. Git e GitHub para versionamento, Vercel para hospedagem estática. Vitest e Playwright para validação.
+As versões exatas estão resolvidas no `package-lock.json`.
 
-## Documentação do hackathon
+## Como executar
 
-- [Requisitos: 14 funcionais, 12 não funcionais e 14 histórias com aceitação](docs/REQUISITOS.md)
-- [Benchmarking: Khan Academy, Duolingo, Google Classroom, Quizlet e Escola Games](docs/BENCHMARKING.md), com fontes oficiais e análises separadas.
-- [Arquitetura, design system e cobertura visual do protótipo](docs/ARQUITETURA.md)
-- [Gestão e processo de desenvolvimento](docs/GESTAO.md)
-- [50 atividades estruturadas](docs/project-cards.json)
-- [Relatório real de entrega e testes](docs/ENTREGA.md)
+**Requisitos:** Node.js 24 (ambiente utilizado) e npm.
 
-Protótipo: **Educa+ Protótipo.pdf**, fornecido pelo usuário e lido integralmente (11 páginas). O arquivo original não é redistribuído neste repositório. Não foi fornecido link público do protótipo navegável.
+```sh
+npm ci            # instala as dependências
+npm run dev       # servidor de desenvolvimento
+npm run build     # build de produção
+npm run preview   # visualiza o build localmente
+npm run lint      # análise estática
+npm test          # testes unitários
+```
 
-Repositório: https://github.com/Nicolas1xx/educacaodequalidade
-Aplicação: consultar [relatório de publicação](docs/ENTREGA.md).
+## Testes
 
-## Processo e integrantes
+- **Unitários:** `npm test` (Vitest).
+- **De navegador:** com `npm run dev` ativo e o Google Chrome instalado, execute `npm run test:e2e` (Playwright). A variável `BASE_URL` permite apontar para outra origem.
 
-Desenvolvimento incremental: inspeção do PDF → tokens e dados → contextos → componentes e telas → responsividade → testes → documentação → publicação. Commits registram alterações reais; não foram usados commits vazios. A branch de trabalho é `feat/educa-plus`. Os estados dos cards locais refletem entregas verificáveis, sem alegar publicação no GitHub Projects.
+Os relatórios locais ficam em `test-results/` e não são enviados ao Git. O resultado dos testes está no [relatório de entrega](docs/ENTREGA.md).
 
-O hackathon prevê quatro integrantes. Seus nomes e contribuições humanas não foram informados; devem ser preenchidos pela equipe. Não se atribuem commits a integrantes inexistentes.
+## Documentação
 
-## Inteligência Artificial
+| Documento | Conteúdo |
+| --- | --- |
+| [Requisitos](docs/REQUISITOS.md) | 14 funcionais, 12 não funcionais e 14 histórias com critérios de aceitação |
+| [Benchmarking](docs/BENCHMARKING.md) | Khan Academy, Duolingo, Google Classroom, Quizlet e Escola Games, com fontes oficiais |
+| [Arquitetura](docs/ARQUITETURA.md) | Arquitetura, design system e cobertura visual do protótipo |
+| [Gestão](docs/GESTAO.md) | Gestão e processo de desenvolvimento |
+| [Atividades](docs/project-cards.json) | 50 atividades estruturadas |
+| [Entrega](docs/ENTREGA.md) | Relatório real de entrega e testes |
 
-Codex foi efetivamente utilizado nesta execução para leitura do protótipo, implementação, documentação e testes. Também utilizamos o Claude como ajuda para ideias e partes na prototipação.
+**Protótipo:** *Educa+ Protótipo.pdf*, fornecido pelo usuário e lido integralmente (11 páginas). O arquivo original não é redistribuído neste repositório. Não foi fornecido link público do protótipo navegável.
+
+## Processo de desenvolvimento
+
+Desenvolvimento incremental, em etapas:
+
+1. Inspeção do PDF
+2. Tokens de design e dados
+3. Contextos
+4. Componentes e telas
+5. Responsividade
+6. Testes
+7. Documentação
+8. Publicação
+
+- Os commits registram alterações reais; não foram usados commits vazios.
+- A branch de trabalho é `feat/educa-plus`.
+- As atividades são acompanhadas no GitHub Projects do repositório.
+
+### Padrão de commits
+
+Seguimos o [Conventional Commits](https://www.conventionalcommits.org/pt-br/v1.0.0/):
+
+```
+<tipo>(<escopo opcional>): <descrição curta no imperativo>
+```
+
+Tipos: `feat`, `fix`, `docs`, `style`, `refactor`, `test`, `build`, `ci` e `chore`. Referencie o card no rodapé, por exemplo `Refs EDU-30`.
+
+## Uso de Inteligência Artificial
+
+- **Codex:** utilizado na leitura do protótipo, na implementação, na documentação e nos testes.
+- **Claude:** utilizado como apoio para ideias e partes da prototipação.
 
 ## Publicação
 
-Importe o repositório na Vercel, selecione Vite, Node 24, comando `npm run build` e saída `dist`. Não são necessárias variáveis de ambiente. `vercel.json` contém fallback para as rotas do React Router. O relatório registra se a publicação automática foi concluída e verificada.
+1. Importe o repositório na Vercel.
+2. Selecione o framework **Vite** e **Node 24**.
+3. Comando de build: `npm run build`. Pasta de saída: `dist`.
+
+Não são necessárias variáveis de ambiente. O `vercel.json` contém o redirecionamento para `index.html`, que mantém as rotas do React Router funcionando ao recarregar a página. O [relatório de entrega](docs/ENTREGA.md) registra se a publicação foi concluída e verificada.
+
+## Equipe
+
+O hackathon prevê quatro integrantes. Nomes e contribuições devem ser preenchidos pela equipe.
+
+| Integrante | Contribuição |
+| --- | --- |
+| _a preencher_ | _a preencher_ |
+| _a preencher_ | _a preencher_ |
+| _a preencher_ | _a preencher_ |
+| _a preencher_ | _a preencher_ |
+
+---
+
+Repositório: https://github.com/Nicolas1xx/educacaodequalidade
