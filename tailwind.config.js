@@ -1,1 +1,19 @@
-export default { content: ['./index.html','./src/**/*.{ts,tsx}'], darkMode: ['class','.hc'], theme: { extend: { fontFamily: {sans:['Inter Variable','Inter','sans-serif']}, colors: {brand:{DEFAULT:'#2563EB',hover:'#1D4ED8',dark:'#1E3A8A',50:'#EFF6FF'},success:{DEFAULT:'#10B981',text:'#047857'},canvas:'#F8FAFC',surface:'#FFFFFF',ink:{DEFAULT:'#0F172A',muted:'#64748B'},line:'#E2E8F0'}, borderRadius:{md:'12px',lg:'16px',xl:'24px'}, screens:{md:'641px',lg:'1025px'},boxShadow:{card:'0 1px 2px rgba(15,23,42,.05), 0 1px 3px rgba(15,23,42,.07)'} } }, plugins:[] }
+export default {
+  content: ['./index.html', './src/**/*.{ts,tsx}'],
+  darkMode: ['class', '.hc'],
+  theme: {
+    extend: {
+      fontFamily: {
+        sans: ['Atkinson Hyperlegible Next Variable', 'Segoe UI', 'system-ui', 'sans-serif'],
+        display: ['Bitter Variable', 'Georgia', 'serif']
+      },
+      colors: {
+        papel: '#f4f5f0', folha: '#ffffff', pauta: '#d5e0ec', tinta: '#1c2b5a', grafite: '#2f3340', lapis: '#5b6472',
+        caneta: {DEFAULT: '#1d44b5', escura: '#163590'}, margem: '#c5192d', marca: '#ffe566', lousa: '#1e4a3a', giz: '#f1efe6'
+      },
+      borderRadius: {md: '4px', lg: '6px'},
+      screens: {md: '641px', lg: '1025px'}
+    }
+  },
+  plugins: []
+}
