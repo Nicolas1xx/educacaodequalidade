@@ -44,7 +44,7 @@ O perfil fictício Ana demonstra gráficos e resultados. Criar perfil local inic
 
 ## Tecnologias e framework
 
-React, TypeScript, Vite, Tailwind CSS, React Router, Lucide React, Recharts, Context API, Zod e fonte Inter hospedada localmente. Versões exatas resolvidas no `package-lock.json`. Git e GitHub para versionamento, Vercel para hospedagem estática. Vitest e Playwright para validação.
+React, TypeScript, Vite, Tailwind CSS, React Router, Lucide React, Recharts, Context API, Zod e fontes Bitter e Atkinson Hyperlegible Next hospedadas localmente. Versões exatas resolvidas no `package-lock.json`. Git e GitHub para versionamento, Vercel para hospedagem estática. Vitest e Playwright para validação.
 
 ## Documentação do hackathon
 
